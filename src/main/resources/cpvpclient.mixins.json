@@ -1,0 +1,10 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.cpvp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MouseMixin", "MouseAccessor", "HandledScreenAccessor", "EntityMixin",
+             "ClientCommonNetworkHandlerMixin", "ClientPlayNetworkHandlerMixin",
+             "MinecraftClientMixin", "PlayerEntityMixin", "CameraMixin", "ScreenMixin", "PressableWidgetMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
